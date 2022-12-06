@@ -1,21 +1,13 @@
 fun main(args: Array<String>) {
 
-    // (Master Coding App on Playstore)
+// Type Conversion
 
- // Constants
-    val number: Int = 10          // Int: Stores integers
-    val pi: Double = 3.14159      // Double: Stores Decimals
-    val k: Float = 6.12345643F
-    val j: String= "hello"
+    var x: Int = 7
+    var y: Double = 3.14
 
-// Variable
-    var personAge: Int = 99
-    var namePerson: String = "John"
+   // x = y  // ERROR - Converting the type: integer = decimal.toInt()
+    x = y.toInt()
 
-    var boilingPoint: Float = 3.423452F
-
-
-
-    println("Hello Master Coding Family")
+    print(x)
 
 }
