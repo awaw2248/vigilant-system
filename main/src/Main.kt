@@ -24,7 +24,8 @@ fun main() {
 //    println("Your name is: $name")
 
 //---------data types--------------------------------------------//
-   //var num : Int = 4
-     
+//   var num : Int = 4
+
+
 
 }
