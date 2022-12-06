@@ -1,31 +1,21 @@
-fun main() {
-//---------variables & constants--------------------------------//
-//var name= "Ahmed"
-//    print(name)
-//
-//    name = "Ali"
-//
-//    print(name)
-//
-//    val id = 1234
-//    print(id)
-//---------naming variables & constants--------------------------//
-//    var current_speed = 20
-//    var currentSpeed = 30
-//    var _name = "Ali"
-//    var num1 = 3
-//    var n1um = 2
-//    var class_Kotlin = "Kotlin"
-//---------user inputs--------------------------------------------//
+fun main(args: Array<String>) {
 
-//   println(" Enter your name: ")
-//    var name = readLine()
-//
-//    println("Your name is: $name")
+    // (Master Coding App on Playstore)
 
-//---------data types--------------------------------------------//
-//   var num : Int = 4
+ // Constants
+    val number: Int = 10          // Int: Stores integers
+    val pi: Double = 3.14159      // Double: Stores Decimals
+    val k: Float = 6.12345643F
+    val j: String= "hello"
+
+// Variable
+    var personAge: Int = 99
+    var namePerson: String = "John"
+
+    var boilingPoint: Float = 3.423452F
 
 
+
+    println("Hello Master Coding Family")
 
 }
