@@ -128,3 +128,41 @@ import javax.swing.Painter
 
 
 // ----------------------------------Any, Unit, Nothing----------------------------------
+// They all not used frequently but better understand what they mean when facing them.
+
+
+//***************Any*****************
+//{"Any" is an every type in kotlin except null}
+//fun main() {
+//    val anyNumber: Any = 42               // However, this way of writing the type of data is not professional.
+//    val anyString: Any = "String"
+//}
+//***************Unit*****************
+// "Unit" is the same as "void" in Java, except that it makes working with Generics easier.
+//"Unit" is a special type which only ever represent one value: the unit object
+//Every function which does not EXPLICITLY return a type ex: String, Integer, Double...ext ------>>> does return a {Unit}.
+//fun main() {
+//
+//}
+//
+//fun add(): Unit{              // This function is simply adding two plus five and PRINTS the result, but does Not actually RETURN anything. So, the RETURN type: {Unit} is IMPLIED.
+//    val result = 2 + 5
+//    println(result)
+//}
+
+//****************Anything****************
+//Nothing: fun is never completes
+//This can occur if (1) the function either causes the program to stop completely by throwing an exception, or (2) goes on forever without ever finishing.
+// returns nothing and do nothing.
+
+
+//fun main() {
+//
+//}
+//fun doNothing(): Nothing{           // This function is running FOREVER, WITHOUT EVER returning anything.
+//    while (true){
+//
+//    }
+//}
+
+//---------------------------Basic Control Flow---------------------------
