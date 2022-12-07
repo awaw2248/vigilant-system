@@ -168,8 +168,29 @@ import javax.swing.Painter
 
 
 //---------------------------Basic Control Flow---------------------------
+//1- Comparison Operators [==] [!=] [<] [<=] [>] [>=]
+//when you perform a sub comparison such as looking for greater of two numbers, the answer is either true or false.
+
+//fun main() {
+//      var yesVariable: Boolean = true   // academic way
+//      var noVariable = false            // type interface
+//
+//      //*******Boolean Operator***********Comparison Operators
+//
+//
+//      val doesOneEqualTwo = (1 == 2)     // [==]----> meaning: {IS IT EQUAL?}
+//                                         // [==]----> Testing Equality
+//      println(doesOneEqualTwo)             // [==]----> Boolean expression
+//                                                    // {=}<-- this is assignment! not expression
+//
+//
+//      val doesThreeEqualFour = (3 != 4)  // [!=]----> To check if they are not equal
+//      println(doesThreeEqualFour)                // {!}<-- the "NOT OPERATOR": switches true to false and false to true.
+//
+//      val doesSixEqualFour = !(6 == 4)    // {!} switches false to true
+//      println(doesSixEqualFour)           //return true
+//
+//}
 
 
-fun main() {
-
-}
+//2- Logic Operators
