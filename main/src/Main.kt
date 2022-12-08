@@ -194,3 +194,49 @@ import javax.swing.Painter
 //
 
 //2- Logic Operators
+// {AND}<---- operator [::] [&&]
+
+
+// "true" and "true" = true
+// "false" and "false" = false
+// "true" and "false" = false
+// "false" and "true" = false
+
+//fun main() {
+//val andConstant1 = true && true
+//val andConstant2 = false && false
+//val andConstant3 = true && false
+//val andConstant4 = false && true
+//      print(andConstant1)
+//      print(andConstant2)
+//      print(andConstant3)
+//      print(andConstant4)
+//
+//// {OR}<---- operator [::] [||]
+//
+//val orConstant1 = true || false
+//val orConstant2 = false || true
+//val orConstant3 = true || true
+//val orConstant4 = false || false
+//
+//      // Exercise
+//      val andTrue = 1< 5 || 50 > 100
+//
+//}
+
+
+// 3- String Equality
+// in Kotlin, you can compare strings using the standard equality operator. Like comparing numbers.
+// in Java, this is different, we use {.isequal} method.
+
+//fun main() {
+//    val x = "Kotlin"
+//    val yEqualsx = x == "java"
+//    print(yEqualsx)
+//
+//    val z = "php" < "java"     // Boolean expression based on 'alphabetic' order.
+//}
+
+
+
+//--------------------Conditional Statements--------------------------
